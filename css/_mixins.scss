@@ -1,0 +1,13 @@
+@mixin button-gradient {
+  background: rgb(133,88,235); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(133,88,235,1) 21%, rgba(107,51,231,1) 75%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(133,88,235,1) 21%,rgba(107,51,231,1) 75%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(133,88,235,1) 21%,rgba(107,51,231,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8558eb', endColorstr='#6b33e7',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin center {
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
